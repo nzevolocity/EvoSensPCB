@@ -1,0 +1,35 @@
+cat .gitignore
+
+*.json
+*.DS_Store
+*.autosave
+
+*.LOG
+__Previews
+History
+
+*.SchDocPreview
+*.PcbDocPreview
+*.PrjPcbStructure
+*.Dat
+*.REP 
+*.TLT
+*.log
+*.htm
+*.$$$
+
+#Useless dirs
+Project\ Outputs
+Project\ Logs
+Project Outputs for*
+
+#Exports, but not manual ones
+exports/*
+!exports/manual
+imported *
+
+#Python stuff
+scripts/__pycache__/
+*.bak
+*.dwl
+*.dwl2
